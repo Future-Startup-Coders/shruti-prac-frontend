@@ -1,0 +1,15 @@
+html,body{
+    margin: 20;
+    padding: 20;
+}
+#root{
+    background-color:pink;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    background-color: black;
+    color: beige;
+    margin: 20;
+    padding: 30;
+}
