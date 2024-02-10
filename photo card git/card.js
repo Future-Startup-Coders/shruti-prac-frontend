@@ -1,5 +1,5 @@
 let profile ={
-    img : 'C:/Users/shruti/OneDrive/Desktop/photo card git/download (1).jpg',
+    img : 'download (1).jpg',
     name : "Shruti Sanjay Ghotane",
     qualification : "IT Engineer",
     mailId : "shrutighotane@gmail.com",
@@ -26,11 +26,19 @@ let profile ={
  let mainDiv = document.createElement('div')
  mainDiv.className = 'main'
 
+ root.appendChild(img)
  mainDiv.appendChild(name)
  mainDiv.appendChild(qualification)
  mainDiv.appendChild(mailId)
  mainDiv.appendChild(mobileNo)
-//  mainDiv.appendChild(img)
 
- root.append(mainDiv)
+
+ root.appendChild(mainDiv)
+
+//  let card = document.createElement('div')
+// card.className = 'card'
+// card.appendChild(img)
+// card.appendChild(right)
+
+// root.appendChild(card)
  
