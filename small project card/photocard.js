@@ -28,15 +28,15 @@ qualification.textContent =Shruti.qualification
 let mailId = document.createElement('h2')
 mailId.textContent =Shruti.mailId
 
-root.appendChild(name)
-root.appendChild(mobileNo)
-root.appendChild(qualification)
-root.appendChild(mailId)
-root.appendChild(i)
+// root.appendChild(name)
+// root.appendChild(mobileNo)
+// root.appendChild(qualification)
+// root.appendChild(mailId)
+// root.appendChild(i)
 
 const card = document.createElement('div')
 card.className = 'card'
-card.appendChild(img)
+card.appendChild(i)
 card.appendChild(right)
-
+card.appendChild(name)
 root.appendChild(card)

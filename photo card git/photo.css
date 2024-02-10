@@ -1,0 +1,26 @@
+html,body{
+    margin: 10;
+    padding: 10;
+}
+#root {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid;
+    border-radius: 50px;
+    padding: 1vh;
+    
+}
+.main {
+    background-color: skyblue;
+    color:black;
+    margin : 20px;
+    padding: 30px;
+    border: 1cap solid;
+    border-radius: 40px;
+}
+.mainDiv img{
+    border: 6cap solid;
+    border-radius: 40px;
+}
